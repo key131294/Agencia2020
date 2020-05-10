@@ -1,0 +1,51 @@
+.portada-oficial{
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (51).jpg"); 
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* navbar */
+.colornavbar{
+    background-color: rgba(92, 0, 128, 0.39);
+}
+.top-nav-collapse{
+    background: purple;
+}
+
+/* barra-SOCIAL */
+.social{
+    position: fixed;
+    left: -800;
+    bottom: 300px;
+    z-index: 10;
+    
+}
+        .social ul:hover{
+            /* background: white; */
+            color: white;   
+            font-size: 30px;         
+        }
+        .social a{    
+            display: inline-block;       
+            
+            
+        }
+
+        .social ul{
+            list-style: none;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-right: 20px;
+        }
+
+        /* redes sociales */
+        .inst{
+            color: purple;
+        }
+
+    .tmn{
+        font-size: 27px;
+    }
